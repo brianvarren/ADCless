@@ -1,13 +1,5 @@
 #pragma once
 
-#include <Arduino.h>
-#include <hardware/adc.h>
-#include <hardware/dma.h>
-#include <hardware/regs/dreq.h>
-#include "hardware/clocks.h"
-#include "hardware/gpio.h"
-#include "hardware/irq.h"
-
 #define NUM_ADC_INPUTS      8
 
 // Uncomment one depending on the target

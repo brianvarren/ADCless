@@ -1,3 +1,10 @@
+#include <Arduino.h>
+#include <hardware/adc.h>
+#include <hardware/dma.h>
+#include <hardware/regs/dreq.h>
+#include "hardware/clocks.h"
+#include "hardware/gpio.h"
+#include "hardware/irq.h"
 #include "ADCless.h"
 
 // DEFINITIONS of the variables
